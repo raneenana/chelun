@@ -7,6 +7,7 @@ import Img from './images'
 import FloorPrice from './floorPrice'
 import TypeCar from "./carType/typecar"
 import Color from './color/index'
+import Echarts from './echarts/index'
 import {
   BrowserRouter as Router,
   Route,
@@ -29,6 +30,7 @@ class App extends React.Component {
         <Route path="/quotation" component={FloorPrice}/>
         <Route path="/type" component={TypeCar}/>
         <Route path="/color" component={Color}/>
+        <Route path="/echarts" component={Echarts}/>
       </Switch>
     </Router>
       {/* <CarBrant></CarBrant> */}
