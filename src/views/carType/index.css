@@ -1,0 +1,67 @@
+.type_car{
+    width: 100%;
+    height: 100%;
+    /* position: fixed;
+    top:0;
+    left:0; */
+    z-index: 50;
+    background: #f5f5f5;
+  }
+  .type_car>p{
+    width: 100%;
+    height: 30px;
+    /* margin-top:10px; */
+    background: #fff;
+  }
+  .type_car>p span{
+    display: inline-block;
+    height: 100%;
+    line-height: 30px;
+    padding: 0 15px;
+  }
+  .type_car>p span.back{
+    background: #3aacff;
+    color: #fff
+  }
+  .min_box{
+    width: 100%;
+  }
+  .min_box>div>p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    color: #999;
+    box-sizing: border-box
+  }
+  .min_box>div .li{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+  .min_box>div .li p{
+    display: flex;
+    justify-content: space-between;
+  }
+  .min_box>div .li p span:nth-child(2){
+    padding: 0 10px;
+  }
+  .min_box>div .li p:nth-child(1){
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  .min_box>div .li p:nth-child(1) span:nth-child(2){
+    color:red;
+  }
+  .min_box>div .li p:nth-child(2){
+    width: 100%;
+    height: 25px;
+  }
+  .min_box>div .li p:nth-child(2) span{
+    color: #999;
+  }
