@@ -8,6 +8,7 @@ import FloorPrice from './floorPrice'
 import TypeCar from "./carType/typecar"
 import Color from './color/index'
 import Echarts from './echarts/index'
+import Map from './map/index'
 import {
   BrowserRouter as Router,
   Route,
@@ -31,6 +32,7 @@ class App extends React.Component {
         <Route path="/type" component={TypeCar}/>
         <Route path="/color" component={Color}/>
         <Route path="/echarts" component={Echarts}/>
+        <Route path="/map" component={Map}/>
       </Switch>
     </Router>
       {/* <CarBrant></CarBrant> */}
